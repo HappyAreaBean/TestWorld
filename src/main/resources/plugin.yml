@@ -1,0 +1,11 @@
+name: TestWorld
+main: cc.happyareabean.testworld.TestWorld
+version: 1.0
+author: HappyAreaBean
+commands:
+  unload:
+  load:
+  fullrun:
+  setup:
+  autorun:
+  ping:
