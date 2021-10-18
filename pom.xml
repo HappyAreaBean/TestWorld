@@ -24,12 +24,19 @@
             <groupId>me.lucko</groupId>
             <artifactId>spark-api</artifactId>
             <version>0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <systemPath>E:/API/spark.jar</systemPath>
+            <scope>system</scope>
         </dependency>
         <dependency>
             <groupId>org.imanity.paperspigot</groupId>
             <artifactId>paper1.8.8</artifactId>
             <version>1.8.8</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

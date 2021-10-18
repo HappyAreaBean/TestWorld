@@ -15,14 +15,7 @@ public class CommandAutoRun implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String arg, String[] args) {
 
-		if (args[0].equalsIgnoreCase("off")) {
-			TestWorld.AUTORUNNING = false;
-			return true;
-		}
-
-		TestWorld.AUTORUNNING = true;
-
-		while (TestWorld.AUTORUNNING) {
+		while (true) {
 			String worldName = args[0];
 
 			Utils.consoleSend("&c---------------------------------------");

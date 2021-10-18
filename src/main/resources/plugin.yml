@@ -2,6 +2,7 @@ name: TestWorld
 main: cc.happyareabean.testworld.TestWorld
 version: 1.0
 author: HappyAreaBean
+load: STARTUP
 commands:
   unload:
   load:
@@ -9,3 +10,4 @@ commands:
   setup:
   autorun:
   ping:
+  create:
